@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3C3D37;
+}
+
+.login_container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1-login {
+    text-align: center;
+    color: #e20000;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: #e20000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid ;
+    border-radius: 5px; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e20000;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c7000058;
+}
